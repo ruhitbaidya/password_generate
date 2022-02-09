@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        input:focus{
+            border:2px solid #000;
+            box-shadow: none;
+            outline:none;
+        }
+        #howpass{
+            margin-top:5px;
+            border:0;
+        }
+    </style>
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="main-con py-5 my-5">
+                        <div class="heading">
+                            <h4 class="text-center">Auto Password Generate</h4>
+                        </div>
+                        <div class="passmake">
+                            <div class="passinput mb-4">
+                                <input id="passin" type="text" class="form-control" readonly>
+                                <input id="howpass" type="text" placeholder="How Password You Generate Type here">
+                            </div>
+                            <div class="passbutton">
+                                <button id="passgenr" class="btn btn-primary">Password Generate</button>
+                                <button id="passcopy" class="btn btn-primary float-right">Password Copy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center bg-primary text-white p-3">Copyright &copy; Ruhit Baidya 2022</p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
